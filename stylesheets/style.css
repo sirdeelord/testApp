@@ -1,0 +1,188 @@
+/*the asteric selector(*) is used to affect all element on the web page*/
+/* line 5, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  /*padding is as white space between the box*/
+  box-sizing: border-box;
+  /*this size the boxes of the web page*/
+  position: relative;
+}
+
+/* line 10, ../sass/style.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 16, ../sass/style.scss */
+body {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+}
+
+/* line 21, ../sass/style.scss */
+h1, h2 {
+  color: #00960b;
+}
+
+/* line 25, ../sass/style.scss */
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  /*this create margin-bottom for xter*/
+}
+
+/* line 30, ../sass/style.scss */
+h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/*to style the the main <p>. call the class created in the html starting with .(dot) example: .main-text*/
+/* line 36, ../sass/style.scss */
+.main-text {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* line 42, ../sass/style.scss */
+.author-text {
+  font-size: 22px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+/* line 48, ../sass/style.scss */
+.container {
+  width: 1140px;
+  /*short and clean way to declare of margin: top right buttom left*/
+  margin: 20px auto 0 auto;
+}
+
+/* line 54, ../sass/style.scss */
+.blog-post {
+  width: 75%;
+  /*the percentage that the blog post is gonna take on the web page */
+  float: left;
+  /*with float an element can be push to the left or right*/
+  padding-right: 30px;
+  /*padding is as white space between the box*/
+}
+
+/* line 60, ../sass/style.scss */
+.other-posts {
+  width: 25%;
+  float: left;
+  /*with float an element can be push to the left or right*/
+}
+
+/* line 65, ../sass/style.scss */
+.author-box {
+  padding-top: 20px;
+  border-top: 1px solid #808080;
+  /*this create a borderline on top of the author img*/
+}
+
+/* line 70, ../sass/style.scss */
+.other {
+  margin-bottom: 40px;
+}
+
+/* line 74, ../sass/style.scss */
+.author-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+/* line 81, ../sass/style.scss */
+.blog-post img {
+  height: 150px;
+  width: auto;
+}
+
+/* line 86, ../sass/style.scss */
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+/* last line*/
+/* line 93, ../sass/style.scss */
+.other-posts {
+  background-color: red;
+}
+/* line 95, ../sass/style.scss */
+.other-posts .other {
+  background-color: blue;
+}
